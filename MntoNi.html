@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Mukta&display=swap" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Mn to Ni</title>
+</head>
+<body>
+    <section class="same part1">
+        <div class="container">
+            <div class="padding1">
+                <div class="headContainer"><span class="v248_12">Mn to Ni</span></div>
+            </div>
+
+            <div class="buttonAll">
+                <button type="button" onclick="startCamHandler()" id="camButton">Start Webcam</button>
+                <button type="button" onclick="startUpHandler()" id="upButton">Upload Image</button>
+            </div>
+
+
+            <div id="game-container">
+                <div id="webcam-container" class="d-none"></div>
+
+                <input type="file" id="inp" class="d-none">
+                <canvas id="canvas" class="d-none"></canvas>
+
+                <div id="label-container" class="d-none"></div>
+                <div id="fullAnswer" class="d-none"></div>
+            </div>
+
+            <form method="get" action="website.html">
+                <button class="back" type="submit">Back</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parse/3.1.0/parse.min.js"></script>
+
+    <script src="indexG.js"></script>
+</body>
+</html>
