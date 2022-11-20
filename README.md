@@ -9,5 +9,8 @@ Check out the App here:
 https://haripriya2002145.github.io/QuantumX/
 
 Do see this tutorial in if you want to make a similar one:
+https://dev.to/haripriya2002145/learning-the-elements-of-the-modern-periodic-table-through-a-web-application-using-sashido-and-teachable-machine-a8b
+
+Happy Coding!
 
 
